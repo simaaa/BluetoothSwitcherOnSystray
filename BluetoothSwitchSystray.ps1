@@ -158,7 +158,7 @@ $SystrayLauncher.Visible = $true
 #Create context menu items
 $Program1= New-MenuItem -Text "Bluetooth ON" -Program ".\BluetoothSwitch.ps1" -Arguments "ON" 
 $Program2= New-MenuItem -Text "Bluetooth OFF" -Program ".\BluetoothSwitch.ps1" -Arguments "OFF" 
-$ExitLauncher = New-MenuItem -Text "Kilépés" -ExitOnly
+$ExitLauncher = New-MenuItem -Text "Exit" -ExitOnly
 
 #Add menu items to context menu
 $ContextMenu = New-Object System.Windows.Forms.ContextMenu
